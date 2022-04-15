@@ -1,5 +1,5 @@
 import { Download, Features, SectionWrapper } from './components';
-import assets from './assets';
+import { homeHero, homeCards, feature, mockup } from './assets';
 import styles from './styles/Global';
 
 const App = () => {
@@ -9,26 +9,26 @@ const App = () => {
         title="Your own store of Nifty NFTs. Start Selling and Growing"
         description="Buy, store, collect NFTs, exchange & earn crypto. Join 2+ million people using ProNef Marketplace."
         showBtn
-        mockupImg={assets.homeHero}
+        mockupImg={homeHero}
         banner="banner"
       />
       <SectionWrapper
         title="Smart User Interface Marketplace"
         description="Experience a buttery UI of ProNef NFT Marketplace."
-        mockupImg={assets.homeCards}
+        mockupImg={homeCards}
         reverse
       />
       <Features />
       <SectionWrapper
         title="Deployment"
         description="ProNef is build Expo which runs natively on all users devices. You can easily get your app into peoples hands"
-        mockupImg={assets.feature}
+        mockupImg={feature}
         reverse
       />
       <SectionWrapper
         title="Creative way to showcase the store"
         description="The app contains two screens. The first screen lists all NFTs while the second screen shows the details of each specific."
-        mockupImg={assets.mockup}
+        mockupImg={mockup}
         banner="banner02"
       />
       <Download />

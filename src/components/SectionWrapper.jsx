@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from '../styles/Global';
-import assets from '../assets';
+import { expo } from '../assets';
 import Button from './Button';
 
 const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
@@ -24,7 +24,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           ${styles.descriptionText}`}>{description}</p>
           {showBtn && (
             <Button
-              assetUrl={assets.expo}
+              assetUrl={expo}
               link="https://expo.dev/@the-aydev/react_native_app?serviceType=classic&distribution=expo-go"
             />
           )}

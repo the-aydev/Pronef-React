@@ -1,21 +1,9 @@
-import homeHero from "./home_hero.png";
-import homeCards from "./home_cards.png";
-import feature from "./feature.png";
-import expo from "./expo.png";
-import expo02 from "./expo02.png";
-import javascript from "./javascript.png";
-import react from "./react.png";
-import scene from "./scene.png";
-import mockup from "./mockup.png";
-
-export default {
-  homeHero,
-  homeCards,
-  feature,
-  expo,
-  expo02,
-  javascript,
-  react,
-  scene,
-  mockup,
-};
+export { default as homeHero } from "./home_hero.png";
+export { default as homeCards } from "./home_cards.png";
+export { default as feature } from "./feature.png";
+export { default as expo } from "./expo.png";
+export { default as expo02 } from "./expo02.png";
+export { default as javascript } from "./javascript.png";
+export { default as react } from "./react.png";
+export { default as scene } from "./scene.png";
+export { default as mockup } from "./mockup.png";

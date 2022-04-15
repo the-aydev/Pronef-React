@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from '../styles/Global';
-import assets from '../assets';
+import { scene } from '../assets';
 
 const Download = () => {
   return (
@@ -13,7 +13,7 @@ const Download = () => {
         </div>
         <button className={`${styles.btnPrimary}`}>Source Code</button>
         <div className={`${styles.flexCenter}`}>
-          <img src={assets.scene} alt="download_png" className={`styles.fullImg`} />
+          <img src={scene} alt="download_png" className={`styles.fullImg`} />
         </div>
       </div>
     </div>
